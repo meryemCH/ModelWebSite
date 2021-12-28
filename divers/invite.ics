@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Romance Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Sabrina GUILLOT:mailto:sabrina.guillot@groupe-spc.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Meryemchri
+ gui2015@gmail.com:mailto:Meryemchrigui2015@gmail.com
+ATTACH:CID:5350654BBA374A46A302BB8A1F8FB64A@eurprd03.prod.outlook.com
+DESCRIPTION;LANGUAGE=fr-FR:Madame CHRIGUI\,\n\nJe vous confirme notre écha
+ nge en visio conférence le 7/09 à 11h.\n\nJe vous joins un dossier de ca
+ ndidature à compléter et à me retourner avant notre échange .\n\nPour 
+ toutes questions\, je me tiens à votre disposition au 04 72 67 12 38.\n\n
+ Bien cordialement\n\nSabrina GUILLOT\nChargée recrutement\n______________
+ __________________________________________________________________\nRéuni
+ on Microsoft Teams\nRejoindre sur votre ordinateur ou application mobile\n
+ Cliquez ici pour participer à la réunion<https://teams.microsoft.com/l/m
+ eetup-join/19%3ameeting_NzhmZTlhMzEtNmIyZC00YWNhLWE2MmQtZWEyNTU1MGZmZTE3%4
+ 0thread.v2/0?context=%7b%22Tid%22%3a%222c6e0110-5c5f-4483-8128-2ed1d2ee536
+ b%22%2c%22Oid%22%3a%2230542628-09d3-4e36-98ba-ade44ae9c49a%22%7d>\nPour en
+  savoir plus<https://aka.ms/JoinTeamsMeeting> | Options de réunion<https:
+ //teams.microsoft.com/meetingOptions/?organizerId=30542628-09d3-4e36-98ba-
+ ade44ae9c49a&tenantId=2c6e0110-5c5f-4483-8128-2ed1d2ee536b&threadId=19_mee
+ ting_NzhmZTlhMzEtNmIyZC00YWNhLWE2MmQtZWEyNTU1MGZmZTE3@thread.v2&messageId=
+ 0&language=fr-FR>\n_______________________________________________________
+ _________________________\n\n
+UID:040000008200E00074C5B7101A82E0080000000000701AD9CCA0D701000000000000000
+ 010000000EA643035F21E384DA372BED1D05EEFF7
+SUMMARY;LANGUAGE=fr-FR:Entretien Mme CHRIGUI
+DTSTART;TZID=Romance Standard Time:20210907T110000
+DTEND;TZID=Romance Standard Time:20210907T120000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20210903T155552Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=fr-FR:Réunion Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-1838966811
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_NzhmZTlhMzEtNmIyZC00YWNhLWE2MmQtZWEyNTU1MGZmZTE3%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%222c6e0110-5c5f-4483-8128-2ed1d2ee536b%22%2c%22O
+ id%22%3a%2230542628-09d3-4e36-98ba-ade44ae9c49a%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/2c6e0110-5c5f-4483-8128-2ed1d2ee536b/30542628-09d3-4e36-98ba-a
+ de44ae9c49a/19_meeting_NzhmZTlhMzEtNmIyZC00YWNhLWE2MmQtZWEyNTU1MGZmZTE3@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NzhmZTlhMzEtNmIyZC00YWN
+ hLWE2MmQtZWEyNTU1MGZmZTE3@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:sabrina.guillot@groupe-spc.com\;
+ gruu\;opaque=app:conf:focus:id:teams:2:0!19:meeting_NzhmZTlhMzEtNmIyZC00YW
+ NhLWE2MmQtZWEyNTU1MGZmZTE3-thread.v2!3054262809d34e3698baade44ae9c49a!2c6e
+ 01105c5f448381282ed1d2ee536b
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Réunion Microsoft Teams"\, "Loc
+ ationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Loc
+ ationUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
